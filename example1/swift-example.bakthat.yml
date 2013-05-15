@@ -1,0 +1,14 @@
+default:
+  access_key: test:tester
+  auth_url: https://192.168.0.1/v2.0/
+  auth_version: '2'
+  default_destination: swift
+  glacier_vault: ''
+  region_name: us-east-1
+  rotation:
+    days: 7
+    first_week_day: 5
+    months: 12
+    weeks: 30
+  s3_bucket: backups
+  secret_key: testing
